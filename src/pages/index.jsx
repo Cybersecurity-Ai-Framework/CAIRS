@@ -10,7 +10,7 @@ import researchDomains from '../../data/researchDomains.json';
 import siteStats from '../../data/siteStats.json';
 import standards from '../../data/standards.json';
 
-const GITHUB_REPO = 'https://github.com/Cyber-Development/cybersecurity-ai-framework';
+const GITHUB_REPO = 'https://github.com/Cybersecurity-Ai-Framework/CAIRS';
 
 const valueCards = [
   {

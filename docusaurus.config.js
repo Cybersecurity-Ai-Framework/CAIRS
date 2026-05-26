@@ -1,8 +1,8 @@
-const repoOwner = process.env.GITHUB_REPOSITORY_OWNER || 'Cyber-Development';
-const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'cybersecurity-ai-framework';
+const repoOwner = process.env.GITHUB_REPOSITORY_OWNER || 'Cybersecurity-Ai-Framework';
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'CAIRS';
 const repoUrl = process.env.GITHUB_REPOSITORY
   ? `https://github.com/${process.env.GITHUB_REPOSITORY}`
-  : 'https://github.com/Cyber-Development/cybersecurity-ai-framework';
+  : 'https://github.com/Cybersecurity-Ai-Framework/CAIRS';
 const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
 
 /** @type {import('@docusaurus/types').Config} */
