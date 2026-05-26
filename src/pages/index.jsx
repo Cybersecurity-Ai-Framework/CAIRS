@@ -390,7 +390,12 @@ function HeroSection() {
               </article>
             ))}
           </div>
-          <p className="powered-by">Powered by <span>Cyber Development</span></p>
+          <p className="powered-by">
+            Powered by{' '}
+            <a href="https://www.cyberdevelopment.company" target="_blank" rel="noopener noreferrer">
+              Cyber Development
+            </a>
+          </p>
         </div>
         <HeroMesh />
       </div>

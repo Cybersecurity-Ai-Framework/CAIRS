@@ -386,9 +386,15 @@ body {
   color: var(--caif-muted);
 }
 
-.powered-by span {
+.powered-by a {
   color: var(--caif-green);
   font-weight: 800;
+  text-decoration: none;
+}
+
+.powered-by a:hover {
+  color: var(--caif-blue-2);
+  text-decoration: none;
 }
 
 .hero-visual {

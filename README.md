@@ -2,7 +2,7 @@
 
 The Cybersecurity AI Framework (CAIF) is an open community standard for AI-powered cybersecurity validation, risk scoring, proof-of-exploitability, and security operations intelligence.
 
-CAIF is powered by Cyber Development and designed to remain vendor-neutral, researcher-driven, and community-governed.
+CAIF is powered by [Cyber Development](https://www.cyberdevelopment.company) and designed to remain vendor-neutral, researcher-driven, and community-governed.
 
 ## MVP scope
 

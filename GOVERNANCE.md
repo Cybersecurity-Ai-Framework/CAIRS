@@ -1,6 +1,6 @@
 # Governance
 
-The Cybersecurity AI Framework is a community-governed public standard powered by Cyber Development.
+The Cybersecurity AI Framework is a community-governed public standard powered by [Cyber Development](https://www.cyberdevelopment.company).
 
 ## Roles
 

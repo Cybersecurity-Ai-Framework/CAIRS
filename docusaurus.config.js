@@ -125,7 +125,8 @@ const config = {
           ]
         }
       ],
-      copyright: `Cybersecurity AI Framework. Powered by Cyber Development. Open Source Community Standard.`
+      copyright:
+        'Cybersecurity AI Framework. Powered by <a href="https://www.cyberdevelopment.company" target="_blank" rel="noopener noreferrer">Cyber Development</a>. Open Source Community Standard.'
     },
     prism: {
       theme: require('prism-react-renderer').themes.github,

@@ -6,7 +6,7 @@ sidebar_label: Community Model
 
 # Community Model
 
-CAIF is intended to be a community-owned public standard with Cyber Development providing stewardship, infrastructure, and coordination.
+CAIF is intended to be a community-owned public standard with [Cyber Development](https://www.cyberdevelopment.company) providing stewardship, infrastructure, and coordination.
 
 ## Contribution roles
 
