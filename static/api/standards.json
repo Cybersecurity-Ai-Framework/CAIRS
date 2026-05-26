@@ -1,0 +1,58 @@
+{
+  "framework": "Cybersecurity AI Framework",
+  "shortName": "CAIF",
+  "version": "1.0",
+  "kind": "standards",
+  "generatedAt": "local-static-build",
+  "data": [
+    {
+      "id": "CAF-AI-001",
+      "title": "AI-Assisted Vulnerability Triage",
+      "description": "Minimum evidence, review, and confidence requirements for AI-assisted vulnerability triage.",
+      "status": "Draft",
+      "href": "/docs/standards/caf-ai-001"
+    },
+    {
+      "id": "CAF-AI-002",
+      "title": "Proof-of-Exploitability Evidence Standard",
+      "description": "A consistent structure for reproducible, ethical proof-of-exploitability evidence.",
+      "status": "Draft",
+      "href": "/docs/standards/caf-ai-002"
+    },
+    {
+      "id": "CAF-AI-003",
+      "title": "AI-Generated Security Report Standard",
+      "description": "Requirements for explainable, verifiable AI-generated security reports.",
+      "status": "Proposed",
+      "href": "/docs/standards/caf-ai-003"
+    },
+    {
+      "id": "CAF-AI-004",
+      "title": "Secure Prompting for Security Testing",
+      "description": "Prompting patterns for controlled, authorized security testing workflows.",
+      "status": "Proposed",
+      "href": "/docs/standards/caf-ai-004"
+    },
+    {
+      "id": "CAF-AI-005",
+      "title": "AI Model Risk in AppSec",
+      "description": "Model, tool, and agentic workflow risks relevant to application security programs.",
+      "status": "Proposed",
+      "href": "/docs/standards/caf-ai-005"
+    },
+    {
+      "id": "CAF-AI-006",
+      "title": "Automated Remediation Review Standard",
+      "description": "Review expectations for AI-generated remediation guidance and code changes.",
+      "status": "Proposed",
+      "href": "/docs/standards/caf-ai-006"
+    },
+    {
+      "id": "CAF-AI-007",
+      "title": "Human-in-the-loop Validation Standard",
+      "description": "Roles, review gates, and evidence requirements for trusted human validation.",
+      "status": "Proposed",
+      "href": "/docs/standards/caf-ai-007"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+name: Propose a CAIF Standard
+description: Propose a new framework standard or improvement to an existing standard.
+title: "[Standard]: "
+labels: ["standard", "proposal"]
+body:
+  - type: input
+    id: standard-id
+    attributes:
+      label: Proposed standard ID
+      placeholder: CAF-AI-00X
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should this standard cover?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or rationale
+      description: Include references, examples, or operational need.
+    validations:
+      required: true

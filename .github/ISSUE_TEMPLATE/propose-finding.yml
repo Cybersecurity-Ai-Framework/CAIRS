@@ -1,0 +1,25 @@
+name: Propose a Finding
+description: Propose a community finding or advisory record.
+title: "[Finding]: "
+labels: ["finding", "proposal"]
+body:
+  - type: input
+    id: affected-area
+    attributes:
+      label: Affected area
+      description: Keep details authorized and safe for public review.
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide safe, reviewable evidence and avoid harmful exploit detail.
+    validations:
+      required: true

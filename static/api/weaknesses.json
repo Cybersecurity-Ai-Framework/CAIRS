@@ -1,0 +1,15 @@
+{
+  "framework": "Cybersecurity AI Framework",
+  "shortName": "CAIF",
+  "version": "1.0",
+  "kind": "weaknesses",
+  "generatedAt": "local-static-build",
+  "data": [
+    {
+      "id": "CAIF-CWE-000",
+      "title": "Weakness register placeholder",
+      "status": "Open for community contribution",
+      "href": "/docs/weaknesses/introduction"
+    }
+  ]
+}

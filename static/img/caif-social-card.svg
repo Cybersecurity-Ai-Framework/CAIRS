@@ -1,0 +1,22 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#020814"/>
+  <circle cx="890" cy="278" r="202" fill="#041D3A" stroke="#1687FF" stroke-width="2" opacity="0.9"/>
+  <circle cx="890" cy="278" r="138" stroke="#08E2A1" stroke-width="1.5" opacity="0.55"/>
+  <path d="M691 278C768 224 1006 224 1089 278C1007 334 768 334 691 278Z" stroke="#1687FF" opacity="0.75"/>
+  <path d="M714 194C798 286 983 286 1066 194" stroke="#1687FF" opacity="0.45"/>
+  <path d="M714 362C798 270 983 270 1066 362" stroke="#1687FF" opacity="0.45"/>
+  <g opacity="0.75">
+    <circle cx="768" cy="170" r="4" fill="#08E2A1"/>
+    <circle cx="914" cy="119" r="4" fill="#1687FF"/>
+    <circle cx="1055" cy="249" r="4" fill="#08E2A1"/>
+    <circle cx="958" cy="426" r="4" fill="#1687FF"/>
+    <circle cx="744" cy="342" r="4" fill="#1687FF"/>
+    <path d="M768 170L914 119L1055 249L958 426L744 342L768 170Z" stroke="#1687FF"/>
+  </g>
+  <path d="M88 91L158 119V174C158 223 128 263 88 281C48 263 18 223 18 174V119L88 91Z" fill="#06111F" stroke="#1687FF" stroke-width="5"/>
+  <text x="210" y="155" fill="#1687FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="3">CYBERSECURITY</text>
+  <text x="210" y="213" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="800">AI Framework</text>
+  <text x="90" y="380" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">The Open Standard for</text>
+  <text x="90" y="452" fill="#1687FF" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">AI-Powered Cybersecurity</text>
+  <text x="90" y="512" fill="#D6E7FF" font-family="Inter, Arial, sans-serif" font-size="30">Validation, risk scoring, and community intelligence.</text>
+</svg>

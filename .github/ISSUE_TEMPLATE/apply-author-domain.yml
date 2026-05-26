@@ -1,0 +1,40 @@
+name: Apply to Author This Domain
+description: Apply to become a named author or co-author for a CAIF research domain.
+title: "[Author Application]: "
+labels: ["author-application", "research-domain"]
+body:
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Research domain
+      options:
+        - AI AppSec
+        - LLM Security
+        - Agentic AI Security
+        - AI Red Teaming
+        - Cloud Security
+        - API Security
+        - Secure SDLC
+        - OT/ICS Security
+        - Identity & Active Directory
+        - Mobile Security
+        - Vulnerability Research
+        - Digital Forensics
+        - GRC & Cyber Maturity
+        - Threat Intelligence
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Relevant experience
+      description: Summarize your domain experience and public work where appropriate.
+    validations:
+      required: true
+  - type: textarea
+    id: contribution-plan
+    attributes:
+      label: Contribution plan
+      description: What would you author, review, or maintain?
+    validations:
+      required: true

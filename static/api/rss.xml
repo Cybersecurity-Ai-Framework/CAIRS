@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Cybersecurity AI Framework Standards</title>
+    <description>Static RSS feed for CAIF standards and framework updates.</description>
+    <link>/</link>
+    <item>
+      <title>CAF-AI-001 AI-Assisted Vulnerability Triage</title>
+      <description>Minimum evidence, review, and confidence requirements for AI-assisted vulnerability triage.</description>
+      <guid>CAF-AI-001</guid>
+      <link>/docs/standards/caf-ai-001</link>
+    </item>
+    <item>
+      <title>CAF-AI-002 Proof-of-Exploitability Evidence Standard</title>
+      <description>A consistent structure for reproducible, ethical proof-of-exploitability evidence.</description>
+      <guid>CAF-AI-002</guid>
+      <link>/docs/standards/caf-ai-002</link>
+    </item>
+    <item>
+      <title>CAF-AI-003 AI-Generated Security Report Standard</title>
+      <description>Requirements for explainable, verifiable AI-generated security reports.</description>
+      <guid>CAF-AI-003</guid>
+      <link>/docs/standards/caf-ai-003</link>
+    </item>
+    <item>
+      <title>CAF-AI-004 Secure Prompting for Security Testing</title>
+      <description>Prompting patterns for controlled, authorized security testing workflows.</description>
+      <guid>CAF-AI-004</guid>
+      <link>/docs/standards/caf-ai-004</link>
+    </item>
+    <item>
+      <title>CAF-AI-005 AI Model Risk in AppSec</title>
+      <description>Model, tool, and agentic workflow risks relevant to application security programs.</description>
+      <guid>CAF-AI-005</guid>
+      <link>/docs/standards/caf-ai-005</link>
+    </item>
+    <item>
+      <title>CAF-AI-006 Automated Remediation Review Standard</title>
+      <description>Review expectations for AI-generated remediation guidance and code changes.</description>
+      <guid>CAF-AI-006</guid>
+      <link>/docs/standards/caf-ai-006</link>
+    </item>
+    <item>
+      <title>CAF-AI-007 Human-in-the-loop Validation Standard</title>
+      <description>Roles, review gates, and evidence requirements for trusted human validation.</description>
+      <guid>CAF-AI-007</guid>
+      <link>/docs/standards/caf-ai-007</link>
+    </item>
+  </channel>
+</rss>

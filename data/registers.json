@@ -1,0 +1,38 @@
+[
+  {
+    "title": "CWE Register",
+    "subtitle": "Cybersecurity Weakness Enumeration",
+    "description": "Community-authored weakness records mapped to practical AI validation evidence.",
+    "count": 0,
+    "suffix": "+",
+    "icon": "document",
+    "href": "/docs/weaknesses/introduction"
+  },
+  {
+    "title": "Finding Register",
+    "subtitle": "Community findings and advisories",
+    "description": "Validated findings, advisories, and proof artifacts contributed through review.",
+    "count": 0,
+    "suffix": "+",
+    "icon": "shield",
+    "href": "/docs/findings/introduction"
+  },
+  {
+    "title": "Mapping Library",
+    "subtitle": "MITRE, OWASP, NIST & more",
+    "description": "Crosswalks that connect CAIF evidence and scoring to existing standards.",
+    "count": 0,
+    "suffix": "+",
+    "icon": "network",
+    "href": "/docs/framework/introduction"
+  },
+  {
+    "title": "API / Feeds",
+    "subtitle": "JSON, RSS and integration feeds",
+    "description": "Static API-style files for standards, weaknesses, findings, CAIRS and RSS.",
+    "count": 0,
+    "suffix": "+",
+    "icon": "download",
+    "href": "/docs/framework/api-feeds"
+  }
+]

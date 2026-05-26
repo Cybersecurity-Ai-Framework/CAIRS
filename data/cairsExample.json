@@ -1,0 +1,16 @@
+{
+  "name": "CAIRS v1.0",
+  "title": "Cybersecurity AI Risk Score",
+  "score": 8.7,
+  "rating": "High",
+  "scaleMin": 0,
+  "scaleMax": 10,
+  "dimensions": [
+    { "label": "Exploitability", "value": "High", "tone": "critical" },
+    { "label": "Exposure", "value": "External", "tone": "info" },
+    { "label": "Business Impact", "value": "High", "tone": "critical" },
+    { "label": "Evidence Quality", "value": "Confirmed", "tone": "info" },
+    { "label": "Attack Chain Potential", "value": "High", "tone": "critical" },
+    { "label": "Remediation Complexity", "value": "Medium", "tone": "warning" }
+  ]
+}

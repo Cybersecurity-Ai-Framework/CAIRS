@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Community Contributors",
+    "value": 0,
+    "suffix": "+",
+    "icon": "community"
+  },
+  {
+    "label": "Framework Standards",
+    "value": 0,
+    "suffix": "+",
+    "icon": "document"
+  },
+  {
+    "label": "Weaknesses (CWE)",
+    "value": 0,
+    "suffix": "+",
+    "icon": "code"
+  },
+  {
+    "label": "Findings Published",
+    "value": 0,
+    "suffix": "+",
+    "icon": "shield"
+  },
+  {
+    "label": "API Feeds Generated",
+    "value": 0,
+    "suffix": "+",
+    "icon": "download"
+  },
+  {
+    "label": "Open Source Forever",
+    "value": 100,
+    "suffix": "%",
+    "icon": "globe"
+  }
+]

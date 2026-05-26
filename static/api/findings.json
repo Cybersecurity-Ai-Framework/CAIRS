@@ -1,0 +1,15 @@
+{
+  "framework": "Cybersecurity AI Framework",
+  "shortName": "CAIF",
+  "version": "1.0",
+  "kind": "findings",
+  "generatedAt": "local-static-build",
+  "data": [
+    {
+      "id": "CAIF-FINDING-000",
+      "title": "Finding register placeholder",
+      "status": "Open for community contribution",
+      "href": "/docs/findings/introduction"
+    }
+  ]
+}

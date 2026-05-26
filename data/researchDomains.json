@@ -1,0 +1,16 @@
+[
+  { "title": "AI AppSec", "icon": "shield", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "LLM Security", "icon": "brain", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "Agentic AI Security", "icon": "network", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "AI Red Teaming", "icon": "target", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "Cloud Security", "icon": "cloud", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "API Security", "icon": "codebox", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "Secure SDLC", "icon": "check", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "OT/ICS Security", "icon": "circuit", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "Identity & Active Directory", "icon": "identity", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "Mobile Security", "icon": "mobile", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "Vulnerability Research", "icon": "bug", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "Digital Forensics", "icon": "forensics", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "GRC & Cyber Maturity", "icon": "chart", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" },
+  { "title": "Threat Intelligence", "icon": "globe", "status": "Open for Authors", "issueTemplate": "apply-author-domain.yml" }
+]

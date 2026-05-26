@@ -1,0 +1,23 @@
+name: Propose a Weakness Record
+description: Propose a CAIF weakness record or mapping.
+title: "[Weakness]: "
+labels: ["weakness", "proposal"]
+body:
+  - type: input
+    id: weakness-name
+    attributes:
+      label: Weakness name
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the weakness and relevant mappings.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation evidence
+      description: How should this weakness be validated?
