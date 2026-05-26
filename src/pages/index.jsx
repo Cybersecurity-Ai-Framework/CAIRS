@@ -11,6 +11,10 @@ import siteStats from '../../data/siteStats.json';
 import standards from '../../data/standards.json';
 
 const GITHUB_REPO = 'https://github.com/Cybersecurity-Ai-Framework/CAIRS';
+const GITHUB_DISCUSSIONS = `${GITHUB_REPO}/discussions`;
+const JOIN_COMMUNITY_URL = `https://github.com/login?return_to=${encodeURIComponent(GITHUB_DISCUSSIONS)}`;
+const GITHUB_SIGNUP_URL = `https://github.com/signup?return_to=${encodeURIComponent(GITHUB_DISCUSSIONS)}`;
+const STANDARD_ISSUE_URL = `${GITHUB_REPO}/issues/new?template=propose-standard.yml`;
 
 const valueCards = [
   {
@@ -40,19 +44,19 @@ const contributorActions = [
     title: 'Join Discussions',
     description: 'Share ideas and collaborate.',
     icon: 'messages',
-    href: `${GITHUB_REPO}/discussions`
+    href: JOIN_COMMUNITY_URL
   },
   {
-    title: 'Contribute',
-    description: 'Submit PRs and improve the framework.',
+    title: 'Propose Standards',
+    description: 'Submit public standard ideas and evidence.',
     icon: 'branch',
-    href: `${GITHUB_REPO}/pulls`
+    href: STANDARD_ISSUE_URL
   },
   {
-    title: 'Review & Approve',
-    description: 'Help maintain quality and consistency.',
+    title: 'Review & Discuss',
+    description: 'Help improve public drafts and registers.',
     icon: 'shield',
-    href: `${GITHUB_REPO}/pulls`
+    href: JOIN_COMMUNITY_URL
   },
   {
     title: 'Make an Impact',
@@ -370,8 +374,11 @@ function HeroSection() {
             <a className="button button--secondary button--lg caif-button caif-button--ghost" href="#framework-pillars">
               Explore the Framework <span aria-hidden="true">-&gt;</span>
             </a>
-            <a className="button button--secondary button--lg caif-button caif-button--text" href={`${GITHUB_REPO}/discussions`}>
+            <a className="button button--secondary button--lg caif-button caif-button--text" href={JOIN_COMMUNITY_URL}>
               Join as Contributor
+            </a>
+            <a className="button button--secondary button--lg caif-button caif-button--text" href={GITHUB_SIGNUP_URL}>
+              Create GitHub Account
             </a>
           </div>
           <div className="value-strip">
@@ -576,8 +583,12 @@ function CommunitySection() {
           One Community. <span>One Source of Truth.</span>
         </h2>
         <p>
-          No forks. No fragmentation. Join the official community, contribute, review, and help shape
-          the future of cybersecurity together.
+          No forks. No fragmentation. Join the official community, contribute public standards,
+          review research domains, and help shape the future of cybersecurity together.
+        </p>
+        <p className="community-note">
+          Public contributor access is limited to Discussions, Issues, documentation, standards,
+          registers, mappings, scoring guidance, and evidence review. Private source code access is not required or granted.
         </p>
       </div>
       <div className="contributor-actions">
@@ -602,7 +613,7 @@ function CommunitySection() {
         })}
       </div>
       <div className="community-ctas">
-        <a className="button button--primary caif-button" href={`${GITHUB_REPO}/discussions`}>
+        <a className="button button--primary caif-button" href={JOIN_COMMUNITY_URL}>
           Join the Community on GitHub <span aria-hidden="true">-&gt;</span>
         </a>
         <Link className="button button--secondary caif-button caif-button--ghost" to="/docs/contributors/become-an-author">

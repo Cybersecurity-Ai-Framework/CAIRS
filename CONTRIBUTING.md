@@ -10,6 +10,10 @@ Thank you for contributing to the Cybersecurity AI Framework.
 - Join Discussions before large changes.
 - Apply to author a research domain if you have relevant expertise.
 
+## Access model
+
+Public contributors work in GitHub Discussions, Issues, documentation, standards, registers, mappings, scoring guidance, and evidence review. Joining as a contributor does not require or grant private source code access.
+
 ## Standards for contributions
 
 - Use vendor-neutral language.

@@ -16,4 +16,6 @@ Authors are expected to:
 - Document evidence requirements and examples.
 - Help keep the official framework consistent.
 
+Author participation is focused on public standards, documentation, registers, mappings, scoring guidance, and evidence review. It does not grant private source code access.
+
 Use the "Apply to Author This Domain" issue template to request ownership or co-authorship of a domain.

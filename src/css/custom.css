@@ -929,6 +929,14 @@ body {
   line-height: 1.7;
 }
 
+.community-copy .community-note {
+  margin-top: 0.9rem;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(8, 226, 161, 0.5);
+  color: #c7d7ea;
+  font-size: 0.9rem;
+}
+
 .contributor-actions {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

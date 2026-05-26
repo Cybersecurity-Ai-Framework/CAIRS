@@ -16,6 +16,12 @@ CAIF contributions happen through GitHub Issues, Discussions, and Pull Requests.
 - Review a proposed finding.
 - Apply to author a research domain.
 
+## Public contribution boundaries
+
+Public contributors participate through GitHub Discussions, Issues, documentation, standards, registers, mappings, scoring guidance, and evidence review.
+
+Joining the public CAIF community does not require or grant private source code access. If a future private implementation exists, access to that source code is handled separately by maintainers and is not part of the public contributor path.
+
 ## Pull Request expectations
 
 - Keep changes focused.

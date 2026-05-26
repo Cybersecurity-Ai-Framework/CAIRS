@@ -3,6 +3,8 @@ const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'CAIRS';
 const repoUrl = process.env.GITHUB_REPOSITORY
   ? `https://github.com/${process.env.GITHUB_REPOSITORY}`
   : 'https://github.com/Cybersecurity-Ai-Framework/CAIRS';
+const discussionsUrl = `${repoUrl}/discussions`;
+const joinCommunityUrl = `https://github.com/login?return_to=${encodeURIComponent(discussionsUrl)}`;
 const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -88,7 +90,7 @@ const config = {
         {
           type: 'html',
           position: 'right',
-          value: `<a class="navbar-community-cta" href="${repoUrl}/discussions">Join the Community</a>`
+          value: `<a class="navbar-community-cta" href="${joinCommunityUrl}">Join the Community</a>`
         }
       ]
     },
@@ -110,7 +112,7 @@ const config = {
             { label: 'Governance', to: '/docs/governance/community-model' },
             { label: 'Contributors', to: '/docs/contributors/how-to-contribute' },
             { label: 'Become an Author', to: '/docs/contributors/become-an-author' },
-            { label: 'GitHub Discussions', href: `${repoUrl}/discussions` }
+            { label: 'GitHub Discussions', href: joinCommunityUrl }
           ]
         },
         {
