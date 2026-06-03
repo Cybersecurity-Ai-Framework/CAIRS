@@ -4,55 +4,55 @@
     "title": "AI Security Governance",
     "description": "Principles, ethics and responsible use of AI in security.",
     "icon": "shield",
-    "href": "/docs/framework/introduction"
+    "href": "/docs/framework/ai-security-governance"
   },
   {
     "id": "02",
     "title": "Exposure Intelligence",
     "description": "Discover, map and understand your attack surface.",
     "icon": "target",
-    "href": "/docs/framework/introduction"
+    "href": "/docs/framework/exposure-intelligence"
   },
   {
     "id": "03",
     "title": "Vulnerability Validation",
     "description": "AI-assisted triage and human-led validation of findings.",
     "icon": "check",
-    "href": "/docs/standards/caf-ai-001"
+    "href": "/docs/framework/vulnerability-validation"
   },
   {
     "id": "04",
     "title": "Proof-of-Exploitability",
     "description": "Verify, reproduce and document real-world exploitability.",
     "icon": "bug",
-    "href": "/docs/standards/caf-ai-002"
+    "href": "/docs/framework/proof-of-exploitability"
   },
   {
     "id": "05",
     "title": "Adversarial Simulation",
     "description": "Emulate attacker TTPs and validate business impact.",
     "icon": "crossed",
-    "href": "/docs/framework/introduction"
+    "href": "/docs/framework/adversarial-simulation"
   },
   {
     "id": "06",
     "title": "Secure SDLC Intelligence",
     "description": "Embed security intelligence across the SDLC.",
     "icon": "codebox",
-    "href": "/docs/framework/introduction"
+    "href": "/docs/framework/secure-sdlc-intelligence"
   },
   {
     "id": "07",
     "title": "Remediation Intelligence",
     "description": "AI-powered guidance and remediation prioritization.",
     "icon": "brain",
-    "href": "/docs/framework/introduction"
+    "href": "/docs/framework/remediation-intelligence"
   },
   {
     "id": "08",
     "title": "Executive Cyber Reporting",
     "description": "Communicate risk in business language with clarity.",
     "icon": "chart",
-    "href": "/docs/framework/introduction"
+    "href": "/docs/framework/executive-cyber-reporting"
   }
 ]

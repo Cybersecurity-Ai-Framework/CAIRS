@@ -5,7 +5,17 @@ const sidebars = {
       type: 'category',
       label: 'Framework',
       collapsed: false,
-      items: ['framework/introduction', 'framework/bbp-vdp-feeds', 'framework/api-feeds']
+      items: [
+        'framework/introduction',
+        'framework/ai-security-governance',
+        'framework/exposure-intelligence',
+        'framework/vulnerability-validation',
+        'framework/proof-of-exploitability',
+        'framework/adversarial-simulation',
+        'framework/secure-sdlc-intelligence',
+        'framework/remediation-intelligence',
+        'framework/executive-cyber-reporting'
+      ]
     },
     {
       type: 'category',
@@ -43,7 +53,12 @@ const sidebars = {
       type: 'category',
       label: 'Contributors',
       collapsed: false,
-      items: ['contributors/how-to-contribute', 'contributors/become-an-author']
+      items: [
+        'contributors/how-to-contribute',
+        'contributors/become-an-author',
+        'contributors/bbp-vdp-feeds',
+        'contributors/api-feeds'
+      ]
     }
   ]
 };

@@ -72,13 +72,39 @@ const config = {
           value: '<span class="navbar-version">v1.0</span>'
         },
         { to: '/', label: 'Home', position: 'left', exact: true },
-        { to: '/docs/framework/introduction', label: 'Framework', position: 'left' },
+        {
+          type: 'dropdown',
+          label: 'Framework',
+          position: 'left',
+          items: [
+            { label: 'Framework Overview', to: '/docs/framework/introduction' },
+            { label: 'AI Security Governance', to: '/docs/framework/ai-security-governance' },
+            { label: 'Exposure Intelligence', to: '/docs/framework/exposure-intelligence' },
+            { label: 'Vulnerability Validation', to: '/docs/framework/vulnerability-validation' },
+            { label: 'Proof-of-Exploitability', to: '/docs/framework/proof-of-exploitability' },
+            { label: 'Adversarial Simulation', to: '/docs/framework/adversarial-simulation' },
+            { label: 'Secure SDLC Intelligence', to: '/docs/framework/secure-sdlc-intelligence' },
+            { label: 'Remediation Intelligence', to: '/docs/framework/remediation-intelligence' },
+            { label: 'Executive Cyber Reporting', to: '/docs/framework/executive-cyber-reporting' }
+          ]
+        },
         { to: '/docs/standards/caf-ai-001', label: 'Standards', position: 'left' },
         { to: '/docs/scoring/cairs-v1', label: 'AI Rating', position: 'left' },
         { to: '/calculator', label: 'Calculator', position: 'left' },
         { to: '/docs/weaknesses/introduction', label: 'CWE', position: 'left' },
         { to: '/docs/findings/introduction', label: 'CVE / Findings', position: 'left' },
-        { to: '/docs/framework/api-feeds', label: 'API / Feeds', position: 'left' },
+        { to: '/research-opportunities', label: 'Research Opportunities', position: 'left' },
+        {
+          type: 'dropdown',
+          label: 'Contributors',
+          position: 'left',
+          items: [
+            { label: 'How to Contribute', to: '/docs/contributors/how-to-contribute' },
+            { label: 'Become an Author', to: '/docs/contributors/become-an-author' },
+            { label: 'BBP / VDP Feeds', to: '/docs/contributors/bbp-vdp-feeds' },
+            { label: 'API / Feeds', to: '/docs/contributors/api-feeds' }
+          ]
+        },
         { to: '/docs/governance/community-model', label: 'Governance', position: 'left' },
         { href: repoUrl, label: 'GitHub', position: 'left' },
         {
@@ -101,19 +127,22 @@ const config = {
           title: 'Framework',
           items: [
             { label: 'Framework', to: '/docs/framework/introduction' },
-            { label: 'BBP / VDP Feeds', to: '/docs/framework/bbp-vdp-feeds' },
+            { label: 'AI Security Governance', to: '/docs/framework/ai-security-governance' },
+            { label: 'Exposure Intelligence', to: '/docs/framework/exposure-intelligence' },
+            { label: 'Vulnerability Validation', to: '/docs/framework/vulnerability-validation' },
             { label: 'Standards', to: '/docs/standards/caf-ai-001' },
             { label: 'CAIRS v1.0', to: '/docs/scoring/cairs-v1' },
-            { label: 'CAIF-CVSS', to: '/docs/scoring/caif-cvss-v1' },
-            { label: 'API / Feeds', to: '/docs/framework/api-feeds' }
+            { label: 'Research Opportunities', to: '/research-opportunities' }
           ]
         },
         {
-          title: 'Community',
+          title: 'Contributors',
           items: [
             { label: 'Governance', to: '/docs/governance/community-model' },
             { label: 'Contributors', to: '/docs/contributors/how-to-contribute' },
             { label: 'Become an Author', to: '/docs/contributors/become-an-author' },
+            { label: 'BBP / VDP Feeds', to: '/docs/contributors/bbp-vdp-feeds' },
+            { label: 'API / Feeds', to: '/docs/contributors/api-feeds' },
             { label: 'GitHub Discussions', href: joinCommunityUrl }
           ]
         },

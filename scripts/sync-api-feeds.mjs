@@ -146,7 +146,7 @@ ${rssItems}
   <channel>
     <title>CAIF BBP / VDP Program Feed</title>
     <description>Static RSS feed for community-reviewed bug bounty and vulnerability disclosure program metadata.</description>
-    <link>${escapeXml(siteLink('/docs/framework/bbp-vdp-feeds'))}</link>
+    <link>${escapeXml(siteLink('/research-opportunities'))}</link>
 ${programRssItems}
   </channel>
 </rss>
