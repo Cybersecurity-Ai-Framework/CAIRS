@@ -1,0 +1,455 @@
+{
+  "framework": "Cybersecurity AI Framework",
+  "shortName": "CAIF",
+  "version": "1.0",
+  "kind": "caif-cvss-v1",
+  "generatedAt": "local-static-build",
+  "data": {
+    "name": "CAIF-CVSS v1.0",
+    "title": "Cybersecurity AI CVSS",
+    "subtitle": "A CAIF scoring profile inspired by CVSS v4.0 structure and extended for AI-assisted validation, exploit evidence, exposure, and business context.",
+    "scaleMin": 0,
+    "scaleMax": 10,
+    "references": [
+      {
+        "label": "FIRST CVSS v4.0 Calculator",
+        "href": "https://www.first.org/cvss/calculator/4.0"
+      },
+      {
+        "label": "FIRST CVSS v4.0 Specification",
+        "href": "https://www.first.org/cvss/v4.0/specification-document"
+      }
+    ],
+    "defaults": {
+      "AV": "N",
+      "AC": "L",
+      "AT": "N",
+      "PR": "N",
+      "UI": "N",
+      "VC": "H",
+      "VI": "H",
+      "VA": "L",
+      "SC": "L",
+      "SI": "L",
+      "SA": "N",
+      "E": "P",
+      "AIX": "H",
+      "EQ": "C",
+      "EX": "E",
+      "BI": "H",
+      "SF": "N"
+    },
+    "metricGroups": [
+      {
+        "key": "base",
+        "label": "Base Exploitability",
+        "description": "Technical exploit conditions aligned to CVSS v4.0 base concepts.",
+        "metrics": [
+          {
+            "key": "AV",
+            "label": "Attack Vector",
+            "options": [
+              {
+                "value": "N",
+                "label": "Network",
+                "weight": 1
+              },
+              {
+                "value": "A",
+                "label": "Adjacent",
+                "weight": 0.82
+              },
+              {
+                "value": "L",
+                "label": "Local",
+                "weight": 0.62
+              },
+              {
+                "value": "P",
+                "label": "Physical",
+                "weight": 0.2
+              }
+            ]
+          },
+          {
+            "key": "AC",
+            "label": "Attack Complexity",
+            "options": [
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 1
+              },
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 0.55
+              }
+            ]
+          },
+          {
+            "key": "AT",
+            "label": "Attack Requirements",
+            "options": [
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 1
+              },
+              {
+                "value": "P",
+                "label": "Present",
+                "weight": 0.74
+              }
+            ]
+          },
+          {
+            "key": "PR",
+            "label": "Privileges Required",
+            "options": [
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 1
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.78
+              },
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 0.55
+              }
+            ]
+          },
+          {
+            "key": "UI",
+            "label": "User Interaction",
+            "options": [
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 1
+              },
+              {
+                "value": "P",
+                "label": "Passive",
+                "weight": 0.75
+              },
+              {
+                "value": "A",
+                "label": "Active",
+                "weight": 0.58
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "impact",
+        "label": "System Impact",
+        "description": "Impact to the vulnerable system and any subsequent system affected by exploitation.",
+        "metrics": [
+          {
+            "key": "VC",
+            "label": "Vulnerable Confidentiality",
+            "options": [
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 1
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.45
+              },
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 0
+              }
+            ]
+          },
+          {
+            "key": "VI",
+            "label": "Vulnerable Integrity",
+            "options": [
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 1
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.45
+              },
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 0
+              }
+            ]
+          },
+          {
+            "key": "VA",
+            "label": "Vulnerable Availability",
+            "options": [
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 1
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.45
+              },
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 0
+              }
+            ]
+          },
+          {
+            "key": "SC",
+            "label": "Subsequent Confidentiality",
+            "options": [
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 1
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.45
+              },
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 0
+              }
+            ]
+          },
+          {
+            "key": "SI",
+            "label": "Subsequent Integrity",
+            "options": [
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 1
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.45
+              },
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 0
+              }
+            ]
+          },
+          {
+            "key": "SA",
+            "label": "Subsequent Availability",
+            "options": [
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 1
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.45
+              },
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intelligence",
+        "label": "AI and Evidence Intelligence",
+        "description": "CAIF-specific dimensions for proof quality, AI-assisted exploitability, and threat maturity.",
+        "metrics": [
+          {
+            "key": "E",
+            "label": "Exploit Maturity",
+            "options": [
+              {
+                "value": "A",
+                "label": "Active exploitation",
+                "weight": 1
+              },
+              {
+                "value": "P",
+                "label": "Proof available",
+                "weight": 0.92
+              },
+              {
+                "value": "U",
+                "label": "Unproven",
+                "weight": 0.75
+              },
+              {
+                "value": "N",
+                "label": "No known exploit",
+                "weight": 0.55
+              }
+            ]
+          },
+          {
+            "key": "AIX",
+            "label": "AI Exploit Acceleration",
+            "options": [
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 1
+              },
+              {
+                "value": "M",
+                "label": "Medium",
+                "weight": 0.84
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.68
+              },
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 0.52
+              }
+            ]
+          },
+          {
+            "key": "EQ",
+            "label": "Evidence Quality",
+            "options": [
+              {
+                "value": "C",
+                "label": "Confirmed",
+                "weight": 1
+              },
+              {
+                "value": "R",
+                "label": "Reproducible",
+                "weight": 0.82
+              },
+              {
+                "value": "P",
+                "label": "Plausible",
+                "weight": 0.62
+              },
+              {
+                "value": "U",
+                "label": "Unverified",
+                "weight": 0.42
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "environment",
+        "label": "Exposure and Business Context",
+        "description": "Deployment and operating context that CAIF uses to prioritize real-world validation work.",
+        "metrics": [
+          {
+            "key": "EX",
+            "label": "Exposure",
+            "options": [
+              {
+                "value": "E",
+                "label": "External internet",
+                "weight": 1
+              },
+              {
+                "value": "A",
+                "label": "Authenticated external",
+                "weight": 0.82
+              },
+              {
+                "value": "I",
+                "label": "Internal",
+                "weight": 0.58
+              },
+              {
+                "value": "P",
+                "label": "Physically constrained",
+                "weight": 0.25
+              }
+            ]
+          },
+          {
+            "key": "BI",
+            "label": "Business Impact",
+            "options": [
+              {
+                "value": "C",
+                "label": "Critical",
+                "weight": 1
+              },
+              {
+                "value": "H",
+                "label": "High",
+                "weight": 0.86
+              },
+              {
+                "value": "M",
+                "label": "Medium",
+                "weight": 0.64
+              },
+              {
+                "value": "L",
+                "label": "Low",
+                "weight": 0.35
+              }
+            ]
+          },
+          {
+            "key": "SF",
+            "label": "Safety / Human Impact",
+            "options": [
+              {
+                "value": "S",
+                "label": "Safety critical",
+                "weight": 1
+              },
+              {
+                "value": "H",
+                "label": "High operational impact",
+                "weight": 0.85
+              },
+              {
+                "value": "M",
+                "label": "Moderate",
+                "weight": 0.6
+              },
+              {
+                "value": "N",
+                "label": "None",
+                "weight": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

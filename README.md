@@ -10,6 +10,8 @@ CAIF is powered by [Cyber Development](https://www.cyberdevelopment.company) and
 - Data-driven homepage sections from JSON files.
 - Markdown documentation for framework, standards, scoring, governance, and contributors.
 - Static API-style files under `static/api/`.
+- Public BBP / VDP program feed under `data/programFeeds.json`.
+- CAIF-CVSS v1.0 calculator and metric model under `data/caifCvssMetrics.json`.
 - GitHub Issues, Discussions, and Pull Requests as the contribution model.
 
 ## Local development
@@ -29,4 +31,4 @@ The build command syncs the public static API files before generating the site.
 
 ## Contributing
 
-Start with `CONTRIBUTING.md`, open a Discussion, or use one of the Issue templates to propose a standard, weakness, finding, or research domain author application.
+Start with `CONTRIBUTING.md`, open a Discussion, or use one of the Issue templates to propose a standard, weakness, finding, BBP / VDP program feed entry, or research domain author application.

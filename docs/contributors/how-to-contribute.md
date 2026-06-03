@@ -14,6 +14,7 @@ CAIF contributions happen through GitHub Issues, Discussions, and Pull Requests.
 - Improve framework documentation.
 - Add a weakness mapping.
 - Review a proposed finding.
+- Submit public BBP / VDP program metadata.
 - Apply to author a research domain.
 
 ## Public contribution boundaries
@@ -21,6 +22,8 @@ CAIF contributions happen through GitHub Issues, Discussions, and Pull Requests.
 Public contributors participate through GitHub Discussions, Issues, documentation, standards, registers, mappings, scoring guidance, and evidence review.
 
 Joining the public CAIF community does not require or grant private source code access. If a future private implementation exists, access to that source code is handled separately by maintainers and is not part of the public contributor path.
+
+BBP / VDP feed submissions must include public metadata only. Do not submit private program scope, credentials, invite-only details, exploit payloads, or paid/private platform intelligence.
 
 ## Pull Request expectations
 

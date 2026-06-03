@@ -7,6 +7,7 @@ Thank you for contributing to the Cybersecurity AI Framework.
 - Propose standards through Issues.
 - Submit documentation updates through Pull Requests.
 - Add weakness mappings and finding records with clear evidence.
+- Submit public BBP / VDP program metadata for the community feed.
 - Join Discussions before large changes.
 - Apply to author a research domain if you have relevant expertise.
 
@@ -20,6 +21,7 @@ Public contributors work in GitHub Discussions, Issues, documentation, standards
 - Include evidence for security claims.
 - Keep Pull Requests focused and reviewable.
 - Respect authorization boundaries and responsible disclosure.
+- Submit only public BBP / VDP program metadata. Do not include private targets, invite-only scope, credentials, or paid/private platform intelligence.
 - Do not submit exploit details that create unnecessary public harm.
 
 ## Review model

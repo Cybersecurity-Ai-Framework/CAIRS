@@ -4,8 +4,8 @@ title: CAIRS Calculator
 sidebar_label: Calculator
 ---
 
-# CAIRS Calculator
+# CAIRS and CAIF-CVSS Calculator
 
-The public calculator is planned for a later milestone. The MVP reserves this page for the CAIRS scoring workflow and links to the example scoring card on the homepage.
+The public interactive calculator is available at `/calculator`.
 
-Future versions should allow contributors to test scoring dimensions, export vectors, and attach evidence to proposed findings.
+The MVP supports CAIF-CVSS v1.0 vector generation, score previews, and copy-to-clipboard output. Future versions should allow contributors to attach evidence, export validation bundles, and compare CAIF-CVSS with CAIRS and official CVSS vectors.

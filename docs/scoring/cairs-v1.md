@@ -17,4 +17,4 @@ CAIRS is the Cybersecurity AI Risk Score. It is a proposed scoring model for com
 - Attack Chain Potential
 - Remediation Complexity
 
-The homepage includes a static CAIRS example. Calculator logic will be added after the v1 scoring model is reviewed by contributors.
+The homepage includes a static CAIRS example. The public calculator now starts with CAIF-CVSS because it has a clearer metric structure for community review. CAIRS and CAIF-CVSS can later converge if contributors approve a shared scoring model.

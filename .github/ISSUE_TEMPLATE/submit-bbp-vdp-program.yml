@@ -1,0 +1,70 @@
+name: Submit BBP / VDP Program
+description: Propose a public bug bounty or vulnerability disclosure program for the CAIF feed.
+title: "[Program Feed]: "
+labels: ["program-feed", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit only public program metadata. Do not include private source code, invite-only scope, credentials, exploit payloads, or restricted platform intelligence.
+  - type: input
+    id: program-name
+    attributes:
+      label: Program name
+      placeholder: Example Security Program
+    validations:
+      required: true
+  - type: dropdown
+    id: program-type
+    attributes:
+      label: Program type
+      options:
+        - BBP
+        - VDP
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform or owner
+      placeholder: HackerOne, Bugcrowd, HackenProof, Intigriti, self-hosted, etc.
+    validations:
+      required: true
+  - type: input
+    id: public-url
+    attributes:
+      label: Public program URL
+      placeholder: https://example.com/security
+    validations:
+      required: true
+  - type: input
+    id: reward-range
+    attributes:
+      label: Reward range
+      placeholder: "$0 - $10,000 or No bounty listed"
+    validations:
+      required: true
+  - type: textarea
+    id: target-types
+    attributes:
+      label: Public target types
+      description: List public target categories only. Do not include invite-only targets.
+      placeholder: domain, API, mobile app, source code, smart contract
+    validations:
+      required: true
+  - type: dropdown
+    id: verification
+    attributes:
+      label: Public verification status
+      options:
+        - Public URL verified
+        - Needs maintainer verification
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I did not include private source code, credentials, invite-only targets, exploit payloads, or restricted program intelligence.
+          required: true

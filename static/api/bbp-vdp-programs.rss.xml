@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>CAIF BBP / VDP Program Feed</title>
+    <description>Static RSS feed for community-reviewed bug bounty and vulnerability disclosure program metadata.</description>
+    <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+    <item>
+      <title>BBP Zeko Protocol</title>
+      <description>HackenProof | $300 - $3,000 | Targets: source code | New</description>
+      <guid>CAIF-PROG-2026-0001</guid>
+      <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BBP Teleboy</title>
+      <description>Compass Security | $128 - $6,400 | Targets: domain | New</description>
+      <guid>CAIF-PROG-2026-0002</guid>
+      <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BBP Morpho Midnight</title>
+      <description>Cantina | $400,000 | Targets: python, solidity, source code | New</description>
+      <guid>CAIF-PROG-2026-0003</guid>
+      <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BBP DreamX HODLBonus</title>
+      <description>HackenProof | $0 - $6,000 | Targets: source code | New</description>
+      <guid>CAIF-PROG-2026-0004</guid>
+      <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BBP SuperEarn Web &amp; Smart Contract</title>
+      <description>HackenProof | $100 - $30,000 | Targets: domain, source code, wildcard | Open</description>
+      <guid>CAIF-PROG-2026-0005</guid>
+      <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BBP Faberlic</title>
+      <description>Standoff365 | $12,000 | Targets: other | Open</description>
+      <guid>CAIF-PROG-2026-0006</guid>
+      <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BBP ADI Predictstreet SC Dual</title>
+      <description>HackenProof | $0 - $10,000 | Targets: source code | Open</description>
+      <guid>CAIF-PROG-2026-0007</guid>
+      <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>VDP Public VDP Intake Example</title>
+      <description>CAIF Community Register | No bounty listed | Targets: domain, web app | Needs Verification</description>
+      <guid>CAIF-PROG-2026-0008</guid>
+      <link>https://cybersecurity-ai-framework.github.io/CAIRS/docs/framework/bbp-vdp-feeds</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

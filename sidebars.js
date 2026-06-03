@@ -5,7 +5,7 @@ const sidebars = {
       type: 'category',
       label: 'Framework',
       collapsed: false,
-      items: ['framework/introduction', 'framework/api-feeds']
+      items: ['framework/introduction', 'framework/bbp-vdp-feeds', 'framework/api-feeds']
     },
     {
       type: 'category',
@@ -25,7 +25,7 @@ const sidebars = {
       type: 'category',
       label: 'Scoring',
       collapsed: false,
-      items: ['scoring/cairs-v1', 'scoring/calculator']
+      items: ['scoring/cairs-v1', 'scoring/caif-cvss-v1', 'scoring/calculator']
     },
     {
       type: 'category',

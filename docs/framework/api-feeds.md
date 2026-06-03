@@ -14,6 +14,10 @@ Current MVP feeds:
 - `/api/weaknesses.json`
 - `/api/findings.json`
 - `/api/cairs.json`
+- `/api/caif-cvss.json`
+- `/api/bbp-vdp-programs.json`
+- `/api/bbp-vdp-programs.rss.xml`
+- `/api/programs.json`
 - `/api/rss.xml`
 
 These files are generated during build from repository data files where possible. Future GitHub Actions can update them after approved Pull Requests land.

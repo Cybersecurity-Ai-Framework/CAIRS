@@ -75,7 +75,7 @@ const config = {
         { to: '/docs/framework/introduction', label: 'Framework', position: 'left' },
         { to: '/docs/standards/caf-ai-001', label: 'Standards', position: 'left' },
         { to: '/docs/scoring/cairs-v1', label: 'AI Rating', position: 'left' },
-        { to: '/docs/scoring/calculator', label: 'Calculator', position: 'left' },
+        { to: '/calculator', label: 'Calculator', position: 'left' },
         { to: '/docs/weaknesses/introduction', label: 'CWE', position: 'left' },
         { to: '/docs/findings/introduction', label: 'CVE / Findings', position: 'left' },
         { to: '/docs/framework/api-feeds', label: 'API / Feeds', position: 'left' },
@@ -101,8 +101,10 @@ const config = {
           title: 'Framework',
           items: [
             { label: 'Framework', to: '/docs/framework/introduction' },
+            { label: 'BBP / VDP Feeds', to: '/docs/framework/bbp-vdp-feeds' },
             { label: 'Standards', to: '/docs/standards/caf-ai-001' },
             { label: 'CAIRS v1.0', to: '/docs/scoring/cairs-v1' },
+            { label: 'CAIF-CVSS', to: '/docs/scoring/caif-cvss-v1' },
             { label: 'API / Feeds', to: '/docs/framework/api-feeds' }
           ]
         },
