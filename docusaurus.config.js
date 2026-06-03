@@ -72,39 +72,14 @@ const config = {
           value: '<span class="navbar-version">v1.0</span>'
         },
         { to: '/', label: 'Home', position: 'left', exact: true },
-        {
-          type: 'dropdown',
-          label: 'Framework',
-          position: 'left',
-          items: [
-            { label: 'Framework Overview', to: '/docs/framework/introduction' },
-            { label: 'AI Security Governance', to: '/docs/framework/ai-security-governance' },
-            { label: 'Exposure Intelligence', to: '/docs/framework/exposure-intelligence' },
-            { label: 'Vulnerability Validation', to: '/docs/framework/vulnerability-validation' },
-            { label: 'Proof-of-Exploitability', to: '/docs/framework/proof-of-exploitability' },
-            { label: 'Adversarial Simulation', to: '/docs/framework/adversarial-simulation' },
-            { label: 'Secure SDLC Intelligence', to: '/docs/framework/secure-sdlc-intelligence' },
-            { label: 'Remediation Intelligence', to: '/docs/framework/remediation-intelligence' },
-            { label: 'Executive Cyber Reporting', to: '/docs/framework/executive-cyber-reporting' }
-          ]
-        },
+        { to: '/docs/framework/introduction', label: 'Framework', position: 'left' },
         { to: '/docs/standards/caf-ai-001', label: 'Standards', position: 'left' },
         { to: '/docs/scoring/cairs-v1', label: 'AI Rating', position: 'left' },
         { to: '/calculator', label: 'Calculator', position: 'left' },
         { to: '/docs/weaknesses/introduction', label: 'CWE', position: 'left' },
         { to: '/docs/findings/introduction', label: 'CVE / Findings', position: 'left' },
         { to: '/research-opportunities', label: 'Research Opportunities', position: 'left' },
-        {
-          type: 'dropdown',
-          label: 'Contributors',
-          position: 'left',
-          items: [
-            { label: 'How to Contribute', to: '/docs/contributors/how-to-contribute' },
-            { label: 'Become an Author', to: '/docs/contributors/become-an-author' },
-            { label: 'BBP / VDP Feeds', to: '/docs/contributors/bbp-vdp-feeds' },
-            { label: 'API / Feeds', to: '/docs/contributors/api-feeds' }
-          ]
-        },
+        { to: '/docs/contributors/how-to-contribute', label: 'Contributors', position: 'left' },
         { to: '/docs/governance/community-model', label: 'Governance', position: 'left' },
         { href: repoUrl, label: 'GitHub', position: 'left' },
         {
