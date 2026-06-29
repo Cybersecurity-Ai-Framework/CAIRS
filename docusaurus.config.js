@@ -75,6 +75,7 @@ const config = {
         { to: '/docs/framework/introduction', label: 'Framework', position: 'left' },
         { to: '/docs/standards/caf-ai-001', label: 'Standards', position: 'left' },
         { to: '/docs/scoring/cairs-v1', label: 'AI Rating', position: 'left' },
+        { to: '/docs/profiles/cairs-a11y', label: 'Profiles', position: 'left' },
         { to: '/calculator', label: 'Calculator', position: 'left' },
         { to: '/docs/weaknesses/introduction', label: 'CWE', position: 'left' },
         { to: '/docs/findings/introduction', label: 'CVE / Findings', position: 'left' },
@@ -107,6 +108,7 @@ const config = {
             { label: 'Vulnerability Validation', to: '/docs/framework/vulnerability-validation' },
             { label: 'Standards', to: '/docs/standards/caf-ai-001' },
             { label: 'CAIRS v1.0', to: '/docs/scoring/cairs-v1' },
+            { label: 'CAIRS-A11Y', to: '/docs/profiles/cairs-a11y' },
             { label: 'Research Opportunities', to: '/research-opportunities' }
           ]
         },
@@ -132,7 +134,7 @@ const config = {
         }
       ],
       copyright:
-        'Cybersecurity AI Framework. Powered by <a href="https://www.cyberdevelopment.company" target="_blank" rel="noopener noreferrer">Cyber Development</a>. Open Source Community Standard.'
+        'Cybersecurity AI Framework. Powered by <a href="https://www.cyberdevelopment.company" target="_blank" rel="noopener noreferrer">Cyber Development</a>. Open Source Community Standard. © 2026 Sternly Simon. CAIRS and CAIRS-A11Y community framework content authored by Sternly Simon unless otherwise stated. Repository use remains governed by the repository licence.'
     },
     prism: {
       theme: require('prism-react-renderer').themes.github,

@@ -12,7 +12,12 @@ CAIF is powered by [Cyber Development](https://www.cyberdevelopment.company) and
 - Static API-style files under `static/api/`.
 - Public BBP / VDP program feed under `data/programFeeds.json`.
 - CAIF-CVSS v1.0 calculator and metric model under `data/caifCvssMetrics.json`.
+- CAIRS-A11Y accessibility readiness profile under `docs/profiles/cairs-a11y.md`.
 - GitHub Issues, Discussions, and Pull Requests as the contribution model.
+
+## Attribution
+
+CAIRS and CAIRS-A11Y community framework content is authored by Sternly Simon unless otherwise stated. CAIRS-A11Y is an original CAIRS community profile by Sternly Simon for Cyber Development. Repository use remains governed by the repository licence.
 
 ## Local development
 

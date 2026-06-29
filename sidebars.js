@@ -39,6 +39,12 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Profiles',
+      collapsed: false,
+      items: ['profiles/cairs-a11y']
+    },
+    {
+      type: 'category',
       label: 'Registers',
       collapsed: false,
       items: ['weaknesses/introduction', 'findings/introduction']

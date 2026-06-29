@@ -133,6 +133,15 @@ function Icon({ name, className }) {
         <path d="M24 7C30 12 33 18 33 24C33 30 30 36 24 41C18 36 15 30 15 24C15 18 18 12 24 7Z" />
       </svg>
     ),
+    accessibility: (
+      <svg {...common}>
+        <circle cx="24" cy="8" r="4" />
+        <path d="M9 17H39" />
+        <path d="M24 12V27" />
+        <path d="M16 43L24 27L32 43" />
+        <path d="M17 24C19 26 21 27 24 27C27 27 29 26 31 24" />
+      </svg>
+    ),
     check: (
       <svg {...common}>
         <path d="M12 25L20 33L37 14" />
@@ -444,6 +453,28 @@ function StatsStrip() {
   );
 }
 
+function CairsA11yCallout() {
+  return (
+    <section className="caif-container profile-callout" data-reveal aria-labelledby="cairs-a11y-callout-title">
+      <div className="profile-callout__icon">
+        <Icon name="accessibility" />
+      </div>
+      <div className="profile-callout__copy">
+        <span>Community Profile</span>
+        <h2 id="cairs-a11y-callout-title">CAIRS-A11Y</h2>
+        <p>
+          Cybersecurity AI Accessibility Readiness Profile. Making cybersecurity AI accessible,
+          explainable, and protective for everyone.
+        </p>
+        <strong>Authored by Sternly Simon.</strong>
+      </div>
+      <Link className="button button--secondary caif-button caif-button--ghost" to="/docs/profiles/cairs-a11y">
+        Read the Profile <span aria-hidden="true">-&gt;</span>
+      </Link>
+    </section>
+  );
+}
+
 function CairsScoreCard() {
   const [copyLabel, setCopyLabel] = useState('Copy vector');
   const scorePercent = (cairsExample.score / cairsExample.scaleMax) * 100;
@@ -684,6 +715,7 @@ function Home() {
         <HeroSection />
         <PillarsSection />
         <StatsStrip />
+        <CairsA11yCallout />
         <DashboardSection />
         <CommunitySection />
         <ResearchDomainsSection />
