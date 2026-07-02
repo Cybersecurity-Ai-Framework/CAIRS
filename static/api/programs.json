@@ -17,8 +17,13 @@
       ],
       "opportunity": "Strong",
       "status": "New",
-      "href": "/research-opportunities",
-      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities"
+      "validationStatus": "Public URL pending maintainer verification",
+      "summary": "Protocol security program surfaced in the public opportunity feed for source-code review awareness.",
+      "scopeSummary": "Review official HackenProof scope, eligibility, disclosure, and reward terms before testing.",
+      "href": "/research-opportunities?program=CAIF-PROG-2026-0001",
+      "programUrl": "https://hackenproof.com/programs/zeko-protocol",
+      "sourceUrl": "https://bbradar.io/latest-targets",
+      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities?program=CAIF-PROG-2026-0001"
     },
     {
       "id": "CAIF-PROG-2026-0002",
@@ -32,8 +37,13 @@
       ],
       "opportunity": "Potential",
       "status": "New",
-      "href": "/research-opportunities",
-      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities"
+      "validationStatus": "Public URL pending maintainer verification",
+      "summary": "Domain-focused web security program candidate for researchers who prefer traditional web application scope.",
+      "scopeSummary": "Confirm the official Teleboy or Compass Security scope before any testing.",
+      "href": "/research-opportunities?program=CAIF-PROG-2026-0002",
+      "programUrl": "https://www.compass-security.com/en/services/bug-bounty/",
+      "sourceUrl": "https://bbradar.io/latest-targets",
+      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities?program=CAIF-PROG-2026-0002"
     },
     {
       "id": "CAIF-PROG-2026-0003",
@@ -49,8 +59,13 @@
       ],
       "opportunity": "Elite",
       "status": "New",
-      "href": "/research-opportunities",
-      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities"
+      "validationStatus": "Public URL verified",
+      "summary": "High-value smart contract and source-code security competition for advanced protocol researchers.",
+      "scopeSummary": "Review Cantina competition rules, eligible repositories, judging criteria, and submission deadlines.",
+      "href": "/research-opportunities?program=CAIF-PROG-2026-0003",
+      "programUrl": "https://cantina.xyz/competitions/morpho-midnight",
+      "sourceUrl": "https://cantina.xyz/competitions/morpho-midnight",
+      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities?program=CAIF-PROG-2026-0003"
     },
     {
       "id": "CAIF-PROG-2026-0004",
@@ -64,8 +79,13 @@
       ],
       "opportunity": "Strong",
       "status": "New",
-      "href": "/research-opportunities",
-      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities"
+      "validationStatus": "Public URL pending maintainer verification",
+      "summary": "Source-code review opportunity listed for researchers tracking newly opened bounty programs.",
+      "scopeSummary": "Verify public HackenProof scope and payout eligibility before testing.",
+      "href": "/research-opportunities?program=CAIF-PROG-2026-0004",
+      "programUrl": "https://hackenproof.com/programs/dreamx-hodlbonus",
+      "sourceUrl": "https://bbradar.io/latest-targets",
+      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities?program=CAIF-PROG-2026-0004"
     },
     {
       "id": "CAIF-PROG-2026-0005",
@@ -81,8 +101,13 @@
       ],
       "opportunity": "Strong",
       "status": "Open",
-      "href": "/research-opportunities",
-      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities"
+      "validationStatus": "Public URL pending maintainer verification",
+      "summary": "Mixed web and smart contract research opportunity for broad attack-surface review.",
+      "scopeSummary": "Confirm asset scope, excluded tests, and report handling rules with the official program owner.",
+      "href": "/research-opportunities?program=CAIF-PROG-2026-0005",
+      "programUrl": "https://hackenproof.com/programs/superearn",
+      "sourceUrl": "https://bbradar.io/latest-targets",
+      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities?program=CAIF-PROG-2026-0005"
     },
     {
       "id": "CAIF-PROG-2026-0006",
@@ -96,8 +121,13 @@
       ],
       "opportunity": "Potential",
       "status": "Open",
-      "href": "/research-opportunities",
-      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities"
+      "validationStatus": "Public URL pending maintainer verification",
+      "summary": "Program candidate from Standoff365 for researchers monitoring non-traditional target categories.",
+      "scopeSummary": "Use the official Standoff365 program page to verify target details and reporting rules.",
+      "href": "/research-opportunities?program=CAIF-PROG-2026-0006",
+      "programUrl": "https://standoff365.com/",
+      "sourceUrl": "https://bbradar.io/latest-targets",
+      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities?program=CAIF-PROG-2026-0006"
     },
     {
       "id": "CAIF-PROG-2026-0007",
@@ -111,8 +141,13 @@
       ],
       "opportunity": "Strong",
       "status": "Open",
-      "href": "/research-opportunities",
-      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities"
+      "validationStatus": "Public URL pending maintainer verification",
+      "summary": "Source-code security research opportunity for reviewed submissions under program-specific rules.",
+      "scopeSummary": "Check HackenProof for the current scope, duplicates policy, and reward table before testing.",
+      "href": "/research-opportunities?program=CAIF-PROG-2026-0007",
+      "programUrl": "https://hackenproof.com/programs/adi-predictstreet-sc-dual",
+      "sourceUrl": "https://bbradar.io/latest-targets",
+      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities?program=CAIF-PROG-2026-0007"
     },
     {
       "id": "CAIF-PROG-2026-0008",
@@ -127,8 +162,13 @@
       ],
       "opportunity": "Potential",
       "status": "Needs Verification",
-      "href": "/research-opportunities",
-      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities"
+      "validationStatus": "Example entry",
+      "summary": "Example VDP entry showing how public vulnerability disclosure programs appear in the CAIF feed.",
+      "scopeSummary": "Submit real VDP entries through GitHub with a public program URL and public target categories only.",
+      "href": "/research-opportunities?program=CAIF-PROG-2026-0008",
+      "programUrl": "https://github.com/Cybersecurity-Ai-Framework/CAIRS/issues/new?template=submit-bbp-vdp-program.yml",
+      "sourceUrl": "https://github.com/Cybersecurity-Ai-Framework/CAIRS/issues/new?template=submit-bbp-vdp-program.yml",
+      "url": "https://cybersecurity-ai-framework.github.io/CAIRS/research-opportunities?program=CAIF-PROG-2026-0008"
     }
   ]
 }

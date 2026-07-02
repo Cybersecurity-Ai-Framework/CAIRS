@@ -52,7 +52,9 @@ async function main() {
     ...programFeeds,
     programs: programFeeds.programs.map((program) => ({
       ...program,
-      url: siteLink(program.href)
+      url: siteLink(program.href),
+      programUrl: program.programUrl || program.href,
+      sourceUrl: program.sourceUrl || program.programUrl || program.href
     }))
   };
 
@@ -132,10 +134,12 @@ ${rssItems}
       (program) => `    <item>
       <title>${escapeXml(`${program.programType} ${program.name}`)}</title>
       <description>${escapeXml(
-        `${program.platform} | ${program.rewardRange} | Targets: ${program.targets.join(', ')} | ${program.status}`
+        `${program.platform} | ${program.rewardRange} | Targets: ${program.targets.join(', ')} | ${program.status} | ${
+          program.summary || program.scopeSummary || 'Verify official program scope before testing.'
+        }`
       )}</description>
       <guid>${escapeXml(program.id)}</guid>
-      <link>${escapeXml(program.url)}</link>
+      <link>${escapeXml(program.programUrl || program.url)}</link>
       <pubDate>${escapeXml(new Date(`${program.publishedDate}T00:00:00Z`).toUTCString())}</pubDate>
     </item>`
     )
